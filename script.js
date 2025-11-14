@@ -23,7 +23,7 @@ nameForm.addEventListener('submit', (e) => {
             imageDisplay.innerHTML = '<img src="nicole.jpg" alt="Display image">';
         } else {
             // Regular message for other names
-            nameDisplay.textContent = `Hello, ${name}! 👋`;
+            nameDisplay.textContent = `Hello, ${name}! 👋 \n You aren't Nicole, but that's okay!`;
             imageDisplay.classList.add('hidden');
         }
         
