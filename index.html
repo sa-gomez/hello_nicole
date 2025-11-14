@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Display App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <div class="card">
+            <form id="nameForm">
+                <label for="nameInput">Enter your name:</label>
+                <input 
+                    type="text" 
+                    id="nameInput" 
+                    placeholder="Type your name here..."
+                    required
+                >
+                <button type="submit">Submit</button>
+            </form>
+            
+            <div id="displayArea" class="display-area hidden">
+                <div id="nameDisplay"></div>
+                <div id="imageDisplay" class="image-container hidden"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
